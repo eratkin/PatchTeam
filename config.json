@@ -1,0 +1,5 @@
+{
+  "my_stack": ["microsoft"],
+  "lookback_days": 30,
+  "max_items_per_tier": 10
+}
