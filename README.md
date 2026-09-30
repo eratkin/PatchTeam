@@ -9,7 +9,7 @@ first* and writes a custom report.
 | Collector | Downloads the KEV catalog (falls back to cache or sample data) |
 | Triage | Scores each vulnerability and records *why* |
 | Reviewer | Second opinion: removes duplicates, downgrades noise, upgrades real risks |
-| Reporter | Writes `reports/latest.md` (optionally with an AI summary) |
+| Reporter | Writes `reports/latest.md`|
 
 ## Run it
 ```bash
