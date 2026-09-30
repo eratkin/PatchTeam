@@ -2,7 +2,7 @@
 
 PatchParliament reads CISA's free **Known Exploited Vulnerabilities (KEV)** list, then
 four small agents work as a team to decide *which security holes you should fix
-first* and write a plain-English report.
+first* and writes a custom report.
 
 | Agent | Job |
 |---|---|
@@ -28,6 +28,3 @@ commits the new report to `reports/`.
 ## Data
 CISA KEV catalog (free, public): https://www.cisa.gov/known-exploited-vulnerabilities-catalog
 Bundled `data/sample_kev.json` is illustrative demo data only.
-
-## Optional AI summary
-`pip install anthropic`, set `ANTHROPIC_API_KEY`, and the Reporter adds a short summary.
