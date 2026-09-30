@@ -1,6 +1,6 @@
-# PatchParliament - four agents that debate which vulnerabilities to patch first
+# PatchTeam - four agents that debate which vulnerabilities to patch first
 
-PatchParliament reads CISA's free **Known Exploited Vulnerabilities (KEV)** list, then
+PatchTeam reads CISA's free **Known Exploited Vulnerabilities (KEV)** list, then
 four small agents work as a team to decide *which security holes you should fix
 first* and writes a custom report.
 
